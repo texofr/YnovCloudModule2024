@@ -11,7 +11,7 @@ terraform {
     storage_account_name = "testericplancheweu001"
     container_name       = "testdeploy"
     key                  = "vm_deploy.tfstate"
-    access_key           = "oR/BcttX3BFV40I1NnyKjP3VpYfNrGjO7LtRiTVmrmmouDcHiRXjM2TZYXEYWF9R7iuRN/POJox4+AStDFnWeg=="
+    access_key           = "oR/BcttX3BFV40I1NnyKjP3VpYfNrGjO7LtRiTVxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
   }
 }
@@ -23,7 +23,7 @@ provider "azurerm" {
 
 # Déclaration du groupe de ressources
 resource "azurerm_resource_group" "my_resource_group" {
-  name     = "rg-ericplanche-sandbox2-weu"
+  name     = "rg-ericplanche-sandbox-weu"
   location = "West Europe"
 }
 
