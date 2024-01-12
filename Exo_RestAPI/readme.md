@@ -18,5 +18,3 @@ Envoyez la requête HTTP POST à l'URL appropriée pour créer la machine virtue
 Gérez la réponse de la requête HTTP pour obtenir des informations sur l'état de la création de la VM.
 
 Assurez-vous de consulter la documentation officielle d'Azure pour obtenir les détails les plus récents sur l'utilisation de l'API REST Azure et pour personnaliser davantage la configuration de votre machine virtuelle en fonction de vos besoins spécifiques.
-
-Notez que l'utilisation des SDK Azure, tels que le SDK Azure PowerShell ou Azure CLI, peut simplifier considérablement ces opérations. Les SDK encapsulent souvent la complexité de l'API REST et fournissent des commandes plus conviviales.
