@@ -1,6 +1,4 @@
 # Contenu du fichier GitHub Actions pour builder une image Docker et faire le déploiement Terraform
-
-github_actions_content = """
 name: Deploy WordPress Infrastructure
 
 on:
