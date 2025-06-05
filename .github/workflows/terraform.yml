@@ -27,9 +27,10 @@ jobs:
 
       - name: Terraform Plan
         working-directory: Exo_Terraform
-        run: terraform plan
+        run: terraform plan -var-file="terraform.tfvars" -out=tfplan.binary
+        
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main'
         working-directory: Exo_Terraform
-        run: terraform apply -auto-approve
+        run: terraform apply -auto-approve tfplan.binary

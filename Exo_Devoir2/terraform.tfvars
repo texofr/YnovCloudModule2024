@@ -1,0 +1,7 @@
+resource_group_name = "rg-wordpress"
+location            = "East US"
+acr_name            = "acrwordpressdemo"
+mysql_name          = "mysqlwordpressdemo"
+mysql_admin         = "wordpressadmin"
+mysql_password      = "Password123!"
+webapp_name         = "wordpresswebappdemo"
